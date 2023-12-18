@@ -20,6 +20,7 @@ const Navbar = () => {
     </ul>
     <div className="app__navbar-login">
       <a href="#login" className='p__opensans'>Login in / Registration</a>
+      <div />
       <a href="/" className='p__opensans'>Book Table</a>
     </div>
     <div className='app__navbar-smallscreen'>
