@@ -1,0 +1,42 @@
+.app__header {
+    background: var(--color-black);
+}
+
+.app__header-h1 {
+    color: var(--color-golden);
+    font-family: var(--font-base);
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 117px;
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+}
+
+.app__header-img img {
+    width: 80%;
+}
+
+
+
+@media screen and (max-width: 1050px) {
+    .app__header-h1 {
+        font-size: 70px;
+    }
+
+    .app__header-img {
+        margin-top: 2rem;
+    }
+
+
+}
+
+
+@media screen and (max-width: 450px) {
+    .app__header-h1 {
+        font-size: 40px;
+        line-height: 4rem;
+    }
+
+
+
+}
