@@ -1,0 +1,71 @@
+.app__chef {
+    background: var(--color-black);
+}
+
+
+.app__chef-img img {
+    width: 80%;
+}
+
+
+
+.app__chef-info_text {
+    display: flex;
+    align-items: center;
+    margin-top: 4rem;
+    
+}
+
+.app__chef-info_text img {
+    width: 47px;
+    height: 40px;
+    margin-right: 0.5rem;
+}
+
+.app__chef-info_name {
+    margin-top: 4rem;
+}
+
+.app__chef-info_name h4 {
+    color: var(--color-golden);
+    font-family: var(--font-base);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 1.28px;
+    text-transform: capitalize;
+}
+
+.app__chef-info_sing {
+    margin-top: 4rem;
+}
+
+.app__chef-info_sing img {
+    width: 235px;
+    height: auto;
+}
+
+@media screen and (max-width: 1050px) {
+    .app__chef-info h1{
+        font-size: 70px;
+    }
+
+    .app__chef-img {
+        margin-top: 2rem;
+    }
+
+
+}
+
+
+@media screen and (max-width: 450px) {
+    .app__chef-info h1 {
+        font-size: 40px;
+        line-height: 4rem;
+    }
+
+   
+
+
+
+}
