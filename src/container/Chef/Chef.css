@@ -59,6 +59,14 @@
 
 
 @media screen and (max-width: 450px) {
+
+    .app__chef-img img {
+        width: 80%;
+    }
+
+    .app__chef-img {
+        margin-bottom: 2rem;
+    }
     .app__chef-info h1 {
         font-size: 40px;
         line-height: 4rem;
